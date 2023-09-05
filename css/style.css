@@ -1,0 +1,107 @@
+.hidden {
+    display: none;
+}
+img {
+    display:inline;
+    margin-top: 5%;
+    width: 50%;
+}
+button{
+    margin-left: 1%;
+}
+li{
+    list-style-position: inside;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 0 20px 45%;
+    font-size:x-large;
+}
+ul {
+    padding: 5px 0 20px 50px;
+}
+#input3{
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    border-top:none;
+    border-right: none;
+    border-left:none;
+    border-bottom: 3px solid rgb(117, 98, 74);
+    font-size:large;
+    margin-top: 3%;
+    width: 250px;
+    height: 40px;
+}
+#todo-form{
+    height:100px;
+}
+#input1 {
+    font-size:large;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    width: 250px;
+    height: 40px;
+    border-top:none;
+    border-right: none;
+    border-left:none;
+    border-bottom: 3px solid rgb(117, 98, 74);
+}
+#input2{
+    font-size:large;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    width:75px;
+    height:45px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(117, 98, 74);
+}
+#right{
+    margin-left: 60%;
+    display: inline;
+    float:right;
+    white-space: pre-line;
+    margin-top: 7%;
+    margin-left: 1%;
+}
+.time {
+    display: inline;
+    font-size: 130px;
+    margin-bottom: 2%;
+    font-family:'Times New Roman', Times, serif;
+}
+form {
+    text-align:center;
+}
+body {
+    background-image: rgb(219, 191, 153);
+}
+#quote {
+    display: inline;
+    white-space: pre-wrap;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+}
+.wrapper {
+    display: grid;
+    place-items: center;
+  }
+ #greeting {
+    margin-top: 0.5%;
+    margin-bottom:2%;
+    font-size: 60px;
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
